@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  overflow: hidden;
+  background-color: #ab0202;
+  color: #fffffb;
+  padding: 20px 20px;
+  font-size: 25px;
+}
+
+/* Style the header link */
+.header a {
+  float: right;
+  color: #fffffb;
+  padding: 10px 20px;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+/* Style the main navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: #333333;
+}
+
+/* Style the main navigation bar links */
+.nav a {
+  float: right;
+  display: block;
+  color: #fffffb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
